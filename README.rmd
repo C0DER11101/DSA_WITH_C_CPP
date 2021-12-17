@@ -1,4 +1,4 @@
-Hello! I am a C programmer and currently I am learning to implement some data structures(although I learnt some in my HS, but there more some more still out there!!).
+Hello! I am a C programmer and currently I am learning to implement some data structures(although I learnt some in my HS, but there are some more still out there!!).
 
 I am currently doing my B.TECH in COMPUTER SCIENCE AND ENGINEERING in India.
 
