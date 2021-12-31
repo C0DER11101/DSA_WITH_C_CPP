@@ -72,7 +72,7 @@ void insert(node*s)
 
 void sort(node*s)
 {
-	node*i, *j, *prev;
+	node*i, *j, *adv;  // adv -> advanced node(next node's address is stored in this struct pointer for comparison)
 	int temp;
 
 	i=s;
@@ -81,12 +81,12 @@ void sort(node*s)
 		j=s;
 		while(j->link!=NULL)
 		{
-			prev=j->link;
-			if(j->data > prev->data)
+			adv=j->link;
+			if(j->data > adv->data)
 			{
 				temp=j->data;
-				j->data=prev->data;
-				prev->data=temp;
+				j->data=adv->data;
+				adv->data=temp;
 			}
 
 			j=j->link;
