@@ -46,19 +46,20 @@ int main(void)
 
     printf("\n\nthis is your unsorted linked list......\n\n");
 
-    display(start);
+    display(start);  // step 2: display the unsorted list
 
-    sort(start);
+    sort(start);  // step 3: sort the list using selection sort
 
     printf("\n\nthis is your sorted list.....\n\n");
 
-    display(start);
+    display(start);  // step 4: show the sorted list
 
 
     save=start;
 
-    free(next);
-
+    free(next);  /*
+                    important step of all: free up the memory!!
+                */
     free(save);
 
     return 0;
