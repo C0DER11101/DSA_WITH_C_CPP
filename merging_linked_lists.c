@@ -14,7 +14,7 @@ node*start1,*start2,*start3,*save,*next;
 
 void insert(node*);  // function to create linked lists
 void merge_list(node*, node*);  // merges the two linked lists into a third linked list
-void display_lists(node*);  // displays the two linked lists
+void display_lists(node*);  // displays the two linked list
 
 int main(void)
 {
@@ -111,7 +111,7 @@ void display_lists(node*s)
 void merge_list(node*s1,node*s2)
 {
     // MERGING CONCEPT IS SAME AS MERGING OF TWO ARRAYS
-    
+
     start3=NULL;
     while(s1!=NULL || s2!=NULL)
     {
