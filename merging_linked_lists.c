@@ -14,7 +14,7 @@ node*start1,*start2,*start3,*save,*next;
 
 void insert(node*);  // function to create linked lists
 void merge_list(node*, node*);  // merges the two linked lists into a third linked list
-void display_lists(node*);  // displays the two linked list
+void display_lists(node*);  // displays the linked lists
 
 int main(void)
 {
