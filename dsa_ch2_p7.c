@@ -1,6 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+
+// PROGRAM TO SWAP ADJACENT ELEMENTS OF A DOUBLY LINKED LIST BY REARRANGING THE NODES!!!
+
 struct node
 {
     struct node *prev;
