@@ -86,11 +86,10 @@ void display(node*s)
 
 void move(node*s)
 {
-    node*i=s, *j=NULL;
+    node*i=s;
 
     while(i->link!=NULL)
     {
-        j=i;  // for storing the previous node of ith node
         i=i->link;
     }
 
