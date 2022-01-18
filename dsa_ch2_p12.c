@@ -10,6 +10,7 @@ if the first linked list is
 then the 1st, 2nd, 5th, 7th and the 8th elements of the second list should be printed
 */
 
+
 struct node
 {
     int data;
