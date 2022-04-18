@@ -27,6 +27,7 @@ void bucketHash(int k)
 {
         int index;
         static int i=0, prevIndex=0;
+        // prevIndex stores the previous value of index so that it can be used for comparision with the new value of index
 
         if(i==3)
                 i=0;
