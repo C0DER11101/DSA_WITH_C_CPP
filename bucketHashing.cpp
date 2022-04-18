@@ -2,6 +2,7 @@
 #include<stdio.h>
 #define MAX 7
 
+// BUCKET HASHING!!!!
 using namespace std;
 
 int table[MAX][3];
