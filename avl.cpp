@@ -48,7 +48,7 @@ node*insert(node*, int);
 node*searchPar(node*, node*); // search the parent of the current node(if any)
 node*searchInorder(node*); // search the inorder successor of the node to be deleted
 node*searchNode(node*, int); // search a node
-int checkChildren(node*);
+int checkChildren(node*); // to check if a node has two children, or 1 child or no children
 void checkDelBln(node**); // check the balance factor of a node after deletion of a node from that subtree!!!
 void preorder(node*);
 void inorder(node*);
